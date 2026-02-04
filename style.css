@@ -1,8 +1,21 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffffff;
+    background-color: #EAF7FA;
     height: 100vh;
     margin: 0;
+    color: #1F2D3D;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+    color: #2F8F9D;
+}
+
+ol {
+    max-width: 600px;
+    margin: 20px auto;
+    font-size: 18px;
 }
 
 .audio-container {
@@ -13,11 +26,16 @@ body {
     text-align: center;
     width: 90%;
     max-width: 500px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
 
 .audio-container h3 {
     font-size: 26px;
     margin-bottom: 20px;
+    color: #2F8F9D;
 }
 
 #playBtn {
@@ -25,10 +43,19 @@ body {
     padding: 15px 30px;
     cursor: pointer;
     margin-bottom: 20px;
+    background-color: #4FB3C6;
+    color: white;
+    border: none;
+    border-radius: 12px;
+}
+
+#playBtn:hover {
+    background-color: #3AA1B4;
 }
 
 #progress {
     width: 100%;
     height: 10px;
     cursor: pointer;
+    accent-color: #4FB3C6;
 }
