@@ -7,16 +7,20 @@
 </head>
 <body>
 
-<h3>Escuchá el mensaje completo</h3>
+    <div class="audio-container">
+        <h3>Escuchá el mensaje completo</h3>
 
-<button onclick="document.getElementById('audio').play()">
-    ▶ Reproducir audio
-</button>
+        <button id="playBtn">▶ Reproducir</button>
 
-<audio id="audio">
-    <source src="/lista_celeste.mp3" type="audio/mpeg">
-    Tu navegador no soporta audio.
-</audio>
+        <input type="range" id="progress" value="0" min="0" step="1">
+
+        <audio id="audio">
+            <source src="/lista_celeste.mp3" type="audio/mpeg">
+            Tu navegador no soporta audio.
+        </audio>
+    </div>
+
+    <script src="audio.js"></script>
 
 
 </body>
