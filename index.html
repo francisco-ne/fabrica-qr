@@ -7,20 +7,17 @@
 </head>
 <body>
 
-<h2>Procedimiento de Inicio de Máquina</h2>
+<h3>Escuchá el mensaje completo</h3>
 
-<ol>
-    <li>Colocarse los elementos de protección personal.</li>
-    <li>Verificar que no haya objetos en el área.</li>
-    <li>Encender el interruptor principal.</li>
-    <li>Avisar al supervisor ante cualquier falla.</li>
-</ol>
+<button onclick="document.getElementById('audio').play()">
+    ▶ Reproducir audio
+</button>
 
-<h3>Audio explicativo</h3>
-<audio controls>
-    <source src="procedimiento.mp3" type="audio/mpeg">
+<audio id="audio">
+    <source src="/lista_celeste.mp3" type="audio/mpeg">
     Tu navegador no soporta audio.
 </audio>
+
 
 </body>
 </html>
